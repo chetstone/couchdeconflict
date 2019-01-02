@@ -6,6 +6,9 @@
   "bin": {
     "couchdeconflict": "bin/couchdeconflict.bin.js"
   },
+  "config": {
+    "prettier": "--single-quote  --trailing-comma es5 --print-width 80"
+  },
   "scripts": {
     "codestylefix": "standard --fix index.js bin/*.js",
     "codestyle": "standard index.js bin/*.js",
